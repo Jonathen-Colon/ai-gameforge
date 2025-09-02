@@ -3,7 +3,7 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "expo start",
+    "start": "expo start --tunnel",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo run:android",
     "ios": "expo run:ios",
@@ -40,6 +40,7 @@
     "expo-video": "~2.2.2",
     "expo-web-browser": "~14.2.0",
     "jotai": "^2.13.1",
+    "nativewind": "^4",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-native": "0.79.6",
@@ -58,6 +59,9 @@
     "eslint-config-expo": "~9.2.0",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "typescript": "~5.8.3"
+  },
+  "overrides": {
+    "tailwindcss": "3.4.17"
   },
   "private": true
 }
